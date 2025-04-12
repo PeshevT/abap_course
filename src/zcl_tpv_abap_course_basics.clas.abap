@@ -130,7 +130,7 @@ CLASS zcl_tpv_abap_course_basics IMPLEMENTATION.
       ELSEIF sy-index MOD 3 = 0.
         rv_result &&= 'Fizz'.
       ELSE.
-        "rv_result &&= sy-index.
+        rv_result &&= sy-index.
       ENDIF.
 
     ENDDO.
